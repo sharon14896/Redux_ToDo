@@ -24,7 +24,7 @@ const Todos = () => {
 
   const add = () => {
     if (todo === "" || date === "" || time === "") {
-      alert("Input is Empty");
+      alert("Input/date/time is Empty");
     } else {
       dispatch(
         addTodo({
